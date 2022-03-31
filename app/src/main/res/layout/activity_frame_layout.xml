@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layouts.FrameLayoutActivity">
+    <ImageView
+        android:id="@+id/frame_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jatiluwih" />
+    <TextView
+        android:id="@+id/frame_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#4C374A"
+        android:padding="10dp"
+        android:text="@string/jatiluwih_rice_terrace"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/frame_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:text="22/Mar/2022"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LatihanLayout</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="nim_mahasiswa">29900191</string>
+    <string name="contoh_layout">Contoh Layout</string>
+    <string name="contoh_listview">Contoh Listview</string>
+    <string name="contoh_gridview">Contoh Gridview</string>
+    <string name="relative_layout">Contoh Gridview</string>
+    <string name="jatiluwih_rice_terrace">Jatiluwih, Rice Terrace</string>
+    <string name="userid">UserId</string>
+    <string name="user_name">User Name</string>
+    <string name="location">Location</string>
+</resources>
